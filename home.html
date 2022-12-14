@@ -5,37 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">   
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
+    <link rel="stylesheet" href="styles.css">  
 </head>
 <body>
+    
     <!--bootstrap navbar starts-->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a href="home.html" class="navbar-brand" href="#">Disco Dash</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a href="home.html" class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a href="about.html" class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Join
                 </a>
                 <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Skate Classes</a></li>
+                <li><a class="dropdown-item" href="#">Disco Events</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Rent our Venu</a></li>
                 </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
             </li>
             </ul>
             <form class="d-flex" role="search">
@@ -46,9 +45,56 @@
         </div>
     </nav>
     <!--bootstrap navbar ends-->
-    
-<div>
-    content
+    <br> <br>
+
+
+    <!--Bootstrap Carousel Starts-->
+    <div class="container">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.creativefabrica.com/wp-content/uploads/2022/03/11/90s-Retro-Roller-Skate-PNG-Sublimation-Graphics-26995717-1-1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-disco-party-template_23-2149279801.jpg?w=2000" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://brisbanekids.com.au/wp-content/uploads/2019/06/Roller-Skates-High-Res.jpg" class="d-block w-100" alt="...">
+        </div>
+        </div>
+    </div>
+</div>
+    <!--Bootstrap Carousel Ends-->
+    <br><br>
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="alert alert-light">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti 
+            quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia 
+            deseruntr a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+            </div>
+        </div>
+
+            <!--Bootstrap Form-->
+            <div class="col-md-6">
+                <form class="container">
+                    <div class="col-md-10">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="col-md-10">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-light">Submit</button>
+                </form>
+            </div>
+            <!--Bootstrap Form-->
+
+        </div>
 </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>

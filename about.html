@@ -5,37 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">   
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body >
         <!--bootstrap navbar starts-->
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a href="home.html" class="navbar-brand" href="#">Disco Dash</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a href="home.html" class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a href="about.html" class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                    Join
                     </a>
                     <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Skate Classes</a></li>
+                    <li><a class="dropdown-item" href="#">Disco Events</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Rent our Venu</a></li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
                 </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -50,44 +48,50 @@
 
         <br> <br>
 
-
+    <div class="container-fluid">
         <!-- start bootstrap table-->
-        <div class="container">
-        <table class="table table-$teal-100 table-striped">
+        <div class="row">
+        <table class="table table-light table-striped table-hover">
             <thead>
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Time</th>
+                <th scope="col">Class</th>
+                <th scope="col">Ages</th>
+                <th scope="col">Instructor</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <th scope="row">3:15 pm</th>
+                <td>Mini Skaters</td>
+                <td>4-7</td>
+                <td>Briana</td>
             </tr>
             <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <th scope="row">4:00 pm</th>
+                <td>Jr Skaters</td>
+                <td>8-12</td>
+                <td>Luis</td>
             </tr>
             <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <th scope="row">5:30 pm</th>
+                <td>Star Skaters</td>
+                <td>13+</td>
+                <td>Candy</td>
             </tr>
             </tbody>
         </table>
         </div>
         <!--end bootstap table-->
 
-<div>
-    content
-</div>
+        <div class="row">
+            <div class="alert alert-light">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti 
+                quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia 
+                deseruntr a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+                </div>
+        </div>
+    </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
